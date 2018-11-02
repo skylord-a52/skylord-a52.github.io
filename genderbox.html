@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>
-      var gender = [
+  <script>      var gender = [
           "The 2-vector [x, y], where x, y are arbitrary real numbers on (boy, girl)",
           "Mathematician",
           "Nonbinary by elimination",
@@ -35,11 +34,12 @@
 
           return gender[index];
       }
-
-      document.getElementById("GenderBox").innerHTML = getGender();
-
   </script>
 </head>
 <body>
   <span id="GenderBox">if you can read this message, something's gone wrong</span>
+  <script>
+      document.getElementById("GenderBox").innerHTML = getGender();
+  </script>
+  
 </body>
