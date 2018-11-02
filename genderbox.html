@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>      var gender = [
-          "The 2-vector [x, y], where x, y are arbitrary real numbers on (boy, girl)",
-          "Mathematician",
-          "Nonbinary by elimination",
-          "Nonbinary by contradiction",
-          "A → ¬A",
-          "The excluded middle",
-          "Gender? I barely know 'er!",
-          "<confused/reluctant> <boy/girl> by day, <reluctant/confused> <girl/boy> by night",
-          "Bulbasaur"
-      ];
+  <script>      
+    var gender = [
+      "The 2-vector [x, y], where x, y are arbitrary real numbers on (boy, girl)",
+      "Mathematician",
+      "Nonbinary by elimination",
+      "Nonbinary by contradiction",
+      "A → ¬A",
+      "The excluded middle",
+      "Gender? I barely know 'er!",
+      "<confused/reluctant> <boy/girl> by day, <reluctant/confused> <girl/boy> by night",
+      "Bulbasaur"
+    ];
+    
+    function getGender() {
+      
+      // var index = Math.floor(Math.random() * gender.length);
+      var index = 9;
+      
+      if (index == 9) {
+        var rand0 = Math.round(Math.random());
+        var rand1 = Math.round(Math.random());
 
-      function getGender() {
+        var desc0 = (rand0 == 0) ? "reluctant" : "confused";
+        var desc1 = (rand0 == 1) ? "reluctant" : "confused";
 
+        var gend0 = (rand1 == 0) ? "boy" : "girl";
+        var gend1 = (rand1 == 1) ? "boy" : "girl";
 
-          var index = Math.floor(Math.random() * gender.length);
-
-          if (index == 9) {
-              var rand1 = Math.round(Math.random());
-              var rand2 = Math.round(Math.random());
-
-              var desc0 = (rand1 == 0) ? "reluctant" : "confused";
-              var desc1 = (rand1 == 1) ? "reluctant" : "confused";
-
-              var gend0 = (rand1 == 0) ? "boy" : "girl";
-              var gend1 = (rand1 == 1) ? "boy" : "girl";
-
-              return desc0 + " " + gend0 + " by day, " + desc1 + " " + gend1 + " by night.";
-
-          }
-
-          return gender[index];
+        return desc0 + " " + gend0 + " by day, " + desc1 + " " + gend1 + " by night.";
       }
+      
+      return gender[index];
+    }
   </script>
 </head>
 <body>
