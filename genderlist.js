@@ -1,6 +1,6 @@
 
     var gender = [
-      "The 2-vector [x, y], where x &#8712 (0, boy), y &#8712 (0, girl)",
+      "Some 2-vector [x, y], where x &#8712 (0, boy), y &#8712 (0, girl)",
       "Mathematician",
       "Nonbinary by elimination",
       "Nonbinary by contradiction",
