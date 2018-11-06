@@ -8,6 +8,7 @@
       "The excluded middle",
       "Gender? I barely know 'er!",
       "<confused/reluctant> <boy/girl> by day, <reluctant/confused> <girl/boy> by night",
-      "Bulbasaur"
+      "Bulbasaur",
+      "There is as yet insufficient data for a meaningful answer"
     ];
     
