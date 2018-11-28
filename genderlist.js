@@ -12,6 +12,6 @@ var gender = [
     "There is as yet insufficient data for a meaningful answer",
     "Up to interpretation",
     "Cryptid dumbass",
-    "<img src="question.gif style="width:50px;height:60px;"">,
+    "<img src="question.gif style="width:50px;height:60px;">",
     "A goddamn mess"
 ];
